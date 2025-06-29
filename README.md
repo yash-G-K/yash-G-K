@@ -47,9 +47,6 @@ Stay tuned for insightful blogs, UI guides, and web dev tutorials.
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![VSCode](https://img.shields.io/badge/vscode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -74,13 +71,7 @@ Stay tuned for insightful blogs, UI guides, and web dev tutorials.
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
----
 
-### 🔝 Top Contributed Repos
-
-![](https://github-contributor-stats.vercel.app/api?username=yash-G-K&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
-
----
 
 <!-- Designed with ❤️ by Yash Kalbhute using GPRM (https://gprm.itsvg.in) -->
 
