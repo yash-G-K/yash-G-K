@@ -1,77 +1,48 @@
-<h1 align="center">💫 Hi 👋, I'm Yash Kalbhute</h1>
-<h3 align="center">A passionate Frontend Developer || JavaScript Enthusiast || MERN Stack Explorer from India 🇮🇳</h3>
+# Hi, I\'m Yash 👋
 
-<p align="center">
-<img src="https://xclcamps.com/wp-content/uploads/coding-difference-1.jpg">
-  
-</p>
+**MERN Stack Developer • DSA (Java, Python) • AI / ML / DL Enthusiast**
 
-📬 **Email Me** 👉 *kalbhuteyash@gmail.com* for collaborations, freelance work, or just to say hi! 😊
+[![MERN Stack](https://img.shields.io/badge/MERN-Stack-4DB33D?logo=react&logoColor=white)](https://reactjs.org/) [![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white)](https://www.java.com/) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![AI/ML](https://img.shields.io/badge/AI%20%2F%20ML-FF6F61?logo=python&logoColor=white)](#)
 
 ---
 
-- 🔭 *I’m currently working on:* Modern Web Projects & Blogs  
-- 🌱 *I’m currently learning:* Advanced JavaScript, React.js, DSA in Java  
-- 👯 *I’m looking to collaborate on:* Full Stack Projects & DevSync content  
-- 🤔 *I’m looking for help with:* Building scalable frontend architectures  
-- 💬 *Ask me about:* HTML, CSS, JS, React, Git, Blogging  
-- 📫 *How to reach me:* [LinkedIn](https://www.linkedin.com/in/yash-kalbhute) | [Email](mailto:kalbhuteyash@gmail.com)  
-- 😄 *Pronouns:* He/Him  
-- ⚡ *Fun fact:* I debugged for 3 hours... just to find a missing semicolon 😅  
+About me
+
+I\'m a full-stack developer focused on the MERN stack (MongoDB, Express, React, Node). I love solving algorithmic challenges using Java and Python, and I build intelligent systems with AI, Machine Learning and Deep Learning. I enjoy turning ideas into polished, production-ready projects and learning new tools and techniques.
+
+What I build
+
+- Modern web apps and REST APIs with the MERN stack
+- Data structures & algorithms solutions and competitive programming practice (Java & Python)
+- Machine learning models, data pipelines, and experimentation (scikit-learn, TensorFlow, PyTorch)
+
+Skills & highlights
+
+- Languages: Java, JavaScript (ES6+), TypeScript, Python
+- Web: React, Node.js, Express, MongoDB, REST, GraphQL
+- AI/ML/DL: scikit-learn, pandas, NumPy, TensorFlow, PyTorch
+- Tools: Git, Docker, VSCode, Postman, Jest
+- DSA: Arrays, Linked Lists, Trees, Graphs, Dynamic Programming, Greedy algorithms
+
+Projects
+
+- MERN e-commerce / dashboard / personal portfolio (links to projects added soon)
+- DSA practice repo (solutions in Java & Python)
+- ML projects: classification, regression, and some deep learning experiments
+
+Fun corner
+
+Want something playful? Try a browser-based Tic-Tac-Toe I added to this repo:
+
+- fun/tic-tac-toe.html — a small interactive game you can open in your browser.
+
+You can also find a few surprises in the repo — small scripts, challenges, and a sprinkle of emojis. If you\'d like a different look or want me to add your social links, a profile photo, or showcase specific projects, tell me and I\'ll update it.
 
 ---
 
-## 🔗 I Create Developer Content at <DevSync>
+Quick links
 
-Stay tuned for insightful blogs, UI guides, and web dev tutorials.
+- Skills: SKILLS.md
+- Fun: fun/tic-tac-toe.html
 
-📘 [My Hashnode Blog](https://webdevyashblog.hashnode.dev/)  
-📺 (Coming soon) YouTube channel with React + Git tutorials
-
-
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=yash-G-K&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
----
-
-# 💻 Tech Stack
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/mongodb-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-# 📊 GitHub Stats:
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=yash-G-K&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)<br>
-![](https://github-readme-stats.vercel.app/api?username=yash-G-K&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br>
-![](https://github-readme-streak-stats.herokuapp.com/?user=yash-G-K&theme=tokyonight&hide_border=false)
-
----
-
-## 🌐 Socials
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/yashkalbhute_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-kalbhute)
-[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com)
-[![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@Yashkalbhute)
-
----
-
-### ✍️ Random Dev Quote
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-<!-- Designed with ❤️ by Yash Kalbhute using GPRM (https://gprm.itsvg.in) -->
-
+Let\'s build something awesome 🚀

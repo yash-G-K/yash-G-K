@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic-Tac-Toe — Yash\'s Fun Corner</title>
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--x:#34d399;--o:#60a5fa}
+    body{background:linear-gradient(135deg,#001219,#0f172a);font-family:Inter,Segoe UI,Arial;margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;color:#cbd5e1}
+    .container{width:360px;padding:20px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);text-align:center}
+    h1{margin:0 0 8px;font-size:20px}
+    p{margin:0 0 16px;font-size:13px;color:#94a3b8}
+    .board{display:grid;grid-template-columns:repeat(3,100px);gap:8px;justify-content:center;margin-bottom:12px}
+    .cell{width:100px;height:100px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);display:flex;align-items:center;justify-content:center;font-size:48px;border-radius:8px;cursor:pointer;user-select:none}
+    .cell.x{color:var(--x)}
+    .cell.o{color:var(--o)}
+    .info{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    button{background:#111827;color:#e6eef8;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+    .score{font-size:14px;color:#94a3b8}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tic-Tac-Toe — Fun Corner</h1>
+    <p>Play vs another person in the same browser. Built for a quick break while coding 🚀</p>
+    <div class="info">
+      <div class="score">Turn: <strong id="turn">X</strong></div>
+      <div><button id="reset">Reset</button></div>
+    </div>
+    <div class="board" id="board"></div>
+    <div class="info"><div class="score">X: <span id="score-x">0</span></div><div class="score">O: <span id="score-o">0</span></div></div>
+    <p style="font-size:12px;color:#94a3b8;margin-top:10px">Open this file in your browser to play. File: <code>fun/tic-tac-toe.html</code></p>
+  </div>
+
+  <script>
+    const boardEl = document.getElementById('board');
+    const turnEl = document.getElementById('turn');
+    const resetBtn = document.getElementById('reset');
+    const scoreX = document.getElementById('score-x');
+    const scoreO = document.getElementById('score-o');
+
+    let board = Array(9).fill(null);
+    let turn = 'X';
+    let scores = {X:0,O:0};
+
+    function createBoard(){
+      boardEl.innerHTML = '';
+      board.forEach((cell,i)=>{
+        const el = document.createElement('div');
+        el.className = 'cell';
+        el.dataset.index = i;
+        el.addEventListener('click', onClick);
+        el.textContent = cell || '';
+        if(cell) el.classList.add(cell.toLowerCase());
+        boardEl.appendChild(el);
+      });
+    }
+
+    function onClick(e){
+      const i = Number(e.currentTarget.dataset.index);
+      if(board[i]) return;
+      board[i] = turn;
+      if(checkWin(turn)){
+        scores[turn]++;
+        updateScores();
+        alert(turn + ' wins!');
+        resetBoard();
+        return;
+      }
+      if(board.every(Boolean)){
+        alert('Draw!');
+        resetBoard();
+        return;
+      }
+      turn = turn === 'X' ? 'O' : 'X';
+      turnEl.textContent = turn;
+      createBoard();
+    }
+
+    function checkWin(p){
+      const wins = [
+        [0,1,2],[3,4,5],[6,7,8],
+        [0,3,6],[1,4,7],[2,5,8],
+        [0,4,8],[2,4,6]
+      ];
+      return wins.some(combo => combo.every(i => board[i]===p));
+    }
+
+    function resetBoard(){
+      board = Array(9).fill(null);
+      createBoard();
+      turn = 'X';
+      turnEl.textContent = turn;
+    }
+
+    function updateScores(){
+      scoreX.textContent = scores.X;
+      scoreO.textContent = scores.O;
+    }
+
+    resetBtn.addEventListener('click', ()=>{ scores={X:0,O:0}; updateScores(); resetBoard(); });
+
+    // init
+    createBoard();
+  </script>
+</body>
+</html>
